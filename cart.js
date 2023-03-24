@@ -1,4 +1,4 @@
-var noti = document.querySelector('.cart h1');
+var noti = document.querySelector('.nav h1');
 	var select = document.querySelector('.select');
 	var button = document.getElementsByTagName('button');
 	for(var but of button){
