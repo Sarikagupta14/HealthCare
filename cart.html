@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping cart </title>
+	<link rel="stylesheet"  href="index.css">
+</head>
+<body>
+	<div class="nav">
+	<h1><i class=" fa fa-shopping-cart"></i></h1>
+</div>
+<section>
+
+	
+        <!-----Contact section starts----->
+        <section class="contact" id="contact">
+			<div class="container min-vh-80">
+			  <div class="row justify-content-center">
+  
+				<h1 class="heading"><span>'</span>Place Your Order<span>'</span></h1>
+				<div class="col-md-10" data-aos="flip-down">
+				  <form onsubmit="callvalue()">
+				  <div class="inputBox">
+				   <input type="text" placeholder="Full Name" id="uname">
+				   <input type="number" placeholder="Phone" id="number">
+				  </div>
+  
+				  <div class="inputBox">
+					<input type="email" placeholder="Your Email" id="email">
+					<select name="" id="time">
+					  <option value="" disabled seleted>Place Your Order</option>
+					  <option value="UPI">UPI</option>
+					  <option value="GPay">GPay</option>
+					  <option value="PhonePay">PhonePay</option>
+					  <option value="Card">Card</option>
+				
+					</select>
+				   </div>
+  
+				   <textarea name="" id="" cols="30" rows="10" placeholder="Message ( Optional ) "></textarea>
+  
+				   <input type="Submit" name="" id="sub" value="Purchase" class="button">
+  
+				  </form>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="cart.js"></script>
