@@ -1,8 +1,7 @@
 # HealthCare
 
-• This is a patient doctor appointment booking WebApp.
 
-This assignment is related to Hospitality  with exposure of HTML, CSS & Javascript.
+This webapp is related to Hospitality  with exposure of HTML, CSS & Javascript.
 There are different sections present in navbar which represent whole structure of website.
 In rooms section, there are features like-
 1)Filtering- There are 3 buttons present as All, Standard rooms & Average rooms.
